@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+}
+
+/* --- Header Styles --- */
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
