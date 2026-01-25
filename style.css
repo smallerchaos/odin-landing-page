@@ -103,8 +103,11 @@ button {
     display: flex;
     flex-direction: column-reverse;
     max-width: 200px;
+    padding-bottom: 24px;
 }
 .information img {
     border-radius: 10px;
     max-width: 100%;
 }
+
+/* --- Quote Styles --- */
