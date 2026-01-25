@@ -2,10 +2,6 @@ body {
     font-family: 'Roboto', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-img {
-    height: 100px
-}
-
 /* --- Removing Default Styles --- */
 
 body {
@@ -86,4 +82,29 @@ button {
 .hero img {
     flex: 0;
     height: 200px;
+}
+
+/* --- Information Styles --- */
+.information{
+    padding: 48px;
+    text-align: center;
+}
+.information ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.information li {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 200px;
+}
+.information img {
+    border-radius: 10px;
+    max-width: 100%;
 }
