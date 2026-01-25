@@ -25,7 +25,7 @@ button {
 /* --- Common Styles --- */
 
 .header, .hero {
-    padding: 48px;
+    padding: 64px;
     background-color: #181e2a;
     color: #e4e7eb;
 }
