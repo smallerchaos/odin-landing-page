@@ -11,10 +11,12 @@ img {
 /* --- Header Styles --- */
 
 .header {
-    background-color: #1f2937;
+    background-color: #181e2a;
     color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
 }
 
 .header h1 {
@@ -30,4 +32,6 @@ img {
 .header a {
     text-decoration: none;
     color: white;
+    font-size: 16px;
+    font-weight: 300;
 }
