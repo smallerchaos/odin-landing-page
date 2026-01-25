@@ -21,6 +21,11 @@ button {
     color: #e4e7eb;
 }
 
+.header, .hero, .information, .quote, .call-to-action, .footer {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 /* Button Styles */
 button {
     padding: 8px 32px;
@@ -76,12 +81,13 @@ button {
 }
 .hero img {
     flex: 0;
-    height: 200px;
+    max-height: 200px;
 }
 
 /* --- Information Styles --- */
 .information{
-    padding: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     text-align: center;
 }
 .information h2 {
@@ -115,7 +121,8 @@ blockquote {
     font-weight: 100;
     font-style: italic;
     background-color: #e4e7eb;
-    padding: 72px;
+    padding-top: 72px;
+    padding-bottom: 72px;
     display: flex;
     flex-direction: column;
 }
@@ -151,7 +158,8 @@ blockquote {
     flex-direction: column;
     align-items: center;
     font-size: 12px;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .footer a {
     color: #e4e7eb;
