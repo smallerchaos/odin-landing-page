@@ -42,7 +42,7 @@ button {
 .secondary {
     border: solid 2px #e4e7eb;
     background-color: transparent;
-    color: #e4e7eb;
+    color: white;
 }
 
 /* --- Header Styles --- */
@@ -82,6 +82,9 @@ button {
 .hero img {
     flex: 0;
     max-height: 200px;
+}
+.hero button {
+    margin-top: 8px;
 }
 
 /* --- Information Styles --- */
